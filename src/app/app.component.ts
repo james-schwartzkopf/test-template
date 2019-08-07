@@ -25,7 +25,7 @@ export class PresentPipe<T> implements PipeTransform {
 @Component({
   selector: 'app-root',
   template:
-  /* move closing comment to after '+' to compile and see solutions working
+  /* move closing comment to after '+' to compile and see solutions working */
   `
   <h1>The Problem</h1>
   <section>
@@ -37,7 +37,7 @@ export class PresentPipe<T> implements PipeTransform {
     <!-- Type 'number | null' is not assignable to type 'number | undefined' -->
     <app-child [prop]="value$ | async"></app-child>
   </section>
-  ` + */
+  ` +
   `
   <h1>Solution 1 (non null assertions)</h1>
   <section>
